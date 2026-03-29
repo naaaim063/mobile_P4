@@ -1,4 +1,4 @@
-name: milk_mood
+name: mockupnew
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -31,8 +31,9 @@ dependencies:
   flutter:
     sdk: flutter
 
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
-  google_fonts: ^6.3.3
 
 dev_dependencies:
   flutter_test:
@@ -50,37 +51,10 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
-
-  # The following line ensures that the Material Icons font is
-  # included with your application, so that you can use the icons in
-  # the material Icons class.
   uses-material-design: true
 
-  # To add assets to your application, add an assets section, like this:
   assets:
-  - asset/images/animasi.jpeg
-  - asset/images/user.png
-  - asset/images/google-removebg-preview.png
-  - asset/images/facebook-removebg-preview.png
-  - asset/images/apple-removebg-preview.png
-  - asset/images/background_appbar.png
-  - asset/images/coffe.png
-  - asset/images/milk_based.png
-  - asset/images/dessert.png
-  - asset/images/cappucino.png
-  - asset/images/latte.png
-  - asset/images/black_coffe.png
-  - asset/images/matcha_latte.png
-  - asset/images/taro_lavender.png
-  - asset/images/strawberry_milkshake.png
-  - asset/images/cake_box_oreo.png
-  - asset/images/lava_cake.png
-  - asset/images/pancake.png
-  - asset/images/caramel_latte.png
-  - asset/images/cookies.png
-  - asset/images/cart.png
-  - asset/images/appbar_small.png
-
+    - assets/
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
 
