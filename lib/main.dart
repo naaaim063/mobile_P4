@@ -1,24 +1,22 @@
 import 'package:flutter/material.dart';
-import 'package:mockupnew/HomePage.dart';
-import 'OnboardingPage.dart';
+import 'onboarding_page.dart';
 
 void main() {
-  runApp(const CoffeeApp());
+  runApp(const MyApp());
 }
 
-class CoffeeApp extends StatelessWidget {
-  const CoffeeApp({super.key});
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Coffee App',
-      theme: ThemeData(fontFamily: 'Poppins'),
+      theme: ThemeData(
+        fontFamily: 'Poppins',
+      ),
       home: const OnboardingPage(),
-      routes: {
-        "/home": (context) => const HomePage()
-      },
     );
   }
 }
